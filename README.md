@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Pinterest--Downloader-v2.3.0-e60023?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest-Downloader v2.3.0" />
+<img src="https://img.shields.io/badge/Pinterest--Downloader-Latest-e60023?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest-Downloader Latest" />
 
 # 📌 Pinterest Downloader
 
@@ -24,10 +24,6 @@
 <br/>
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=E60023&center=true&vCenter=true&width=500&lines=Download+Pinterest+Videos+%F0%9F%8E%AC;Save+Pinterest+Images+%F0%9F%96%BC%EF%B8%8F;Bulk+Download+Entire+Boards+%F0%9F%93%A6;No+Watermark.+No+Account.+Always+Free.)
-
-<br/>
-
-![Pinterest Downloader Demo](https://raw.githubusercontent.com/Advay254/Pinterest-Downloader/main/og-image.jpg)
 
 </div>
 
