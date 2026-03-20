@@ -1,25 +1,33 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/PinSaver-v2.3.0-e60023?style=for-the-badge&logo=pinterest&logoColor=white" alt="PinSaver v2.3.0" />
+<img src="https://img.shields.io/badge/Pinterest--Downloader-v2.3.0-e60023?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest-Downloader v2.3.0" />
 
-# 📌 PinSaver
+# 📌 Pinterest Downloader
 
 ### Download Pinterest videos, images, and boards — free, no watermark, no account needed.
 
 [![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/Advay254/PinSaver/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/Advay254/Pinterest-Downloader/pulls)
 [![Deploy on Render](https://img.shields.io/badge/Deploy%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=white)](https://render.com)
 
 <br/>
 
-<a href="https://www.buymeacoffee.com/advay254" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+<a href="https://www.buymeacoffee.com/advay254" target="_blank">
+  <img src="https://img.shields.io/badge/Support%20Me-%E2%98%95%20Buy%20Me%20a%20Coffee-e60023?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Support Me" />
+</a>
 
-<br/>
+<br/><br/>
 
 > Paste a Pinterest link. Get your media. No sign-up, no watermark, ever.
 
 <br/>
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=E60023&center=true&vCenter=true&width=500&lines=Download+Pinterest+Videos+%F0%9F%8E%AC;Save+Pinterest+Images+%F0%9F%96%BC%EF%B8%8F;Bulk+Download+Entire+Boards+%F0%9F%93%A6;No+Watermark.+No+Account.+Always+Free.)
+
+<br/>
+
+![Pinterest Downloader Demo](https://raw.githubusercontent.com/Advay254/Pinterest-Downloader/main/og-image.jpg)
 
 </div>
 
@@ -27,20 +35,25 @@
 
 ## ✨ Features
 
-- 📌 **Pinterest video downloads** — download videos in full quality, no watermark
-- 🖼️ **Image downloads** — save single pins or entire boards in one click
-- 📦 **Board downloads** — bulk download entire Pinterest boards as a zip
-- 📱 **Full PWA** — installable on Android and iOS, works like a native app
-- 📲 **Android APK** — native app experience with no browser bar
-- ⚡ **Fast and lightweight** — no bloat, no tracking, no ads injected into downloads
+<img align="right" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif"/>
+
+- 📌 **Pinterest video downloads** — full quality, no watermark
+- 🖼️ **Image downloads** — save single pins in HD
+- 📦 **Board downloads** — bulk download entire boards as a zip
+- 📱 **Full PWA** — installable on Android and iOS
+- 📲 **Android APK** — native app, no browser bar
+- ⚡ **Fast and lightweight** — no bloat, no tracking
+- 🔒 **Secure** — no data stored, no login required
 - 🚀 **Deploy anywhere** — Render, Railway, Fly.io, any Node.js host
+
+<br clear="right"/>
 
 ---
 
 ## 🗂️ Project Structure
 
 ```
-PinSaver/
+Pinterest-Downloader/
 ├── index.js          # Launcher — fetches and starts the core engine
 ├── package.json      # Launcher dependencies only
 ├── .env.example      # Environment variable reference
@@ -57,8 +70,8 @@ PinSaver/
 ### 1. Fork or clone the repo
 
 ```bash
-git clone https://github.com/Advay254/PinSaver.git
-cd PinSaver
+git clone https://github.com/Advay254/Pinterest-Downloader.git
+cd Pinterest-Downloader
 ```
 
 ### 2. Install dependencies
@@ -109,6 +122,8 @@ Visit `http://localhost:3000` — you're live. 🎉
 
 ### Render (recommended)
 
+<img align="right" width="300" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" alt="deploy gif"/>
+
 1. Fork this repo to your GitHub account
 2. Go to [render.com](https://render.com) and create a new **Web Service**
 3. Connect your forked repo
@@ -117,7 +132,9 @@ Visit `http://localhost:3000` — you're live. 🎉
 6. Add your environment variables under **Environment**
 7. Click **Deploy**
 
-> Render free tier sleeps after 15 minutes of inactivity. Use [cron-job.org](https://cron-job.org) to ping `/api/health` every 10 minutes to keep it awake.
+> Render free tier sleeps after 15 minutes of inactivity. Use [cron-job.org](https://cron-job.org) to ping your `/api/health` endpoint every 10 minutes to keep it awake.
+
+<br clear="right"/>
 
 ### Railway
 
@@ -133,10 +150,10 @@ Add your environment variables in the Railway dashboard under **Variables**.
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
-git clone https://github.com/Advay254/PinSaver.git
-cd PinSaver && npm install
+git clone https://github.com/Advay254/Pinterest-Downloader.git
+cd Pinterest-Downloader && npm install
 npm install -g pm2
-pm2 start index.js --name pinsaver
+pm2 start index.js --name pinterest-downloader
 pm2 save && pm2 startup
 ```
 
@@ -145,7 +162,7 @@ pm2 save && pm2 startup
 ## 🛠️ How It Works
 
 ```
-User deploys PinSaver
+User deploys Pinterest Downloader
         ↓
 Launcher starts and fetches the core engine securely at runtime
 Core engine extracts and installs its own dependencies
@@ -162,9 +179,23 @@ No watermark. No account. No hassle.
 
 ---
 
+## 📊 Tech Stack
+
+<div align="center">
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+
+</div>
+
+---
+
 ## 🔄 Updates
 
-Check `version.txt` for the latest release version. Sync your fork and redeploy on Render to get the latest update.
+Check `version.txt` for the latest release version. Sync your fork and redeploy on Render to get the latest update automatically.
 
 ---
 
@@ -180,7 +211,7 @@ Check `version.txt` for the latest release version. Sync your fork and redeploy 
 
 ## ⚠️ Disclaimer
 
-PinSaver is an independent open-source project and is not affiliated with, endorsed by, or connected to Pinterest in any way.
+Pinterest Downloader is an independent open-source project and is **not affiliated with, endorsed by, or connected to Pinterest** in any way.
 
 This tool is intended for downloading your own saved content or content you have the right to download. Users are responsible for complying with Pinterest's terms of service and copyright laws in their country.
 
@@ -194,7 +225,9 @@ MIT © 2026 Advay — free to use, modify, and distribute.
 
 <div align="center">
 
-**If PinSaver saved you time, drop a ⭐ — it helps others find the project.**
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Advay254.Pinterest-Downloader)
+
+**If Pinterest Downloader saved you time, drop a ⭐ — it helps others find the project.**
 
 <br/>
 
